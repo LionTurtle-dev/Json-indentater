@@ -1,8 +1,6 @@
 ##Json file indentater python script
 import json
 
-
-
 def indent(fl: str) -> None:
     v = None
     with open(fl, encoding='utf-8') as file:
